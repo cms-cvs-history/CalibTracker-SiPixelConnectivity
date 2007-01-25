@@ -6,11 +6,7 @@
   <use name=Geometry/CommonDetUnit>
   <use name=Geometry/TrackerGeometryBuilder>
 
-  <use name=CondCore/DBCommon>
-  <use name=CondCore/ESSources>
-  <use name=CondCore/IOVService>
-  <use name=CondCore/MetaDataService>
-
+  <use name=CondCore/DBOutputService>
   <use name=CalibTracker/SiPixelConnectivity>
 
   <library file=SiPixelFedCablingMapWriter.cc name=SiPixelFedCablingMapWriter>
