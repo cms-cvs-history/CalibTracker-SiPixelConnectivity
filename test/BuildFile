@@ -10,5 +10,5 @@
   <use name=CalibTracker/SiPixelConnectivity>
 
   <library file=SiPixelFedCablingMapWriter.cc name=SiPixelFedCablingMapWriter>
-  <flags SEAL_PLUGIN_NAME="SiPixelFedCablingMapWriter">
+  <flags EDM_PLUGIN=1>
   </library>
